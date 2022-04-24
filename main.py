@@ -27,7 +27,7 @@ class Game():
         """Game states: see gameStates"""
 
     def clearScreen(self):
-        self.screen.fill('black')
+        self.screen.fill('white')
 
     def events(self):
         """Handling events"""
